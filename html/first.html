@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar with Image and Text Overlay</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="first.css ">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="https://res.cloudinary.com/dkxgshfol/image/upload/v1717401909/pranav_infra_pic_dlxtkf.jpg" alt="logo" style="height: 40px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="first.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about us.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="projectsDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="projectsDropdown">
+                            <a class="dropdown-item" href="completed.html">Completed Projects</a>
+                            <a class="dropdown-item" href="ongoing.html">Ongoing Projects</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact us.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">+91 9885879900</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Image with Text Overlay -->
+    <div class="image-overlay-container">
+        <img src="https://website-data-pluckwalk.s3-ap-south-1.amazonaws.com/test/6Np8uRZNjJ7sSm7vLEW8ZM.jpeg" alt="Sample Image" class="img-fluid">
+        <div class="slanted-overlay">
+            <div class="overlay-text">
+                <h1>Welcome to Pranav Infra</h1>
+                <p>Your trusted partner in construction and development.</p>
+            </div>
+        </div>
+    </div>
+
+    
+<!-- Featured Projects Section -->
+<section id="featured-projects-section" class="featured-projects-section text-center my-5">
+    <div class="container">
+        <h2>Featured Projects <a href="completed.html " class="view-more">+ View More</a></h2>
+        <div class="row">
+            <div class="col-md-4 project-card">
+                <a href="vaibhav residency.html ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://res.cloudinary.com/dxk84egko/image/upload/v1718012282/Vaibhav%20Residency.jpg" alt="Project 1">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Vaibhav Residency</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 project-card">
+                <a href="Pranav enclave.html ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://res.cloudinary.com/dxk84egko/image/upload/v1717764119/pe1_u0bm7l.jpg" alt="Project 2">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">Pranav enclave</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 project-card">
+                <a href="srinivasa grand.html ">
+                    <div class="card">
+                        <img class="card-img-top" src="https://res.cloudinary.com/dxk84egko/image/upload/v1717764103/ongoing1_pxwsvg.jpg" alt="Project 3">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title"> Srinivasa Grand</h5>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+    <!-- Latest Happenings Section -->
+    <section class="latest-happenings-section text-center my-5">
+        <div class="container">
+            <h2>Latest Happenings</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="vasudha enclave.html "><img class="card-img-top" src=" https://res.cloudinary.com/dxk84egko/image/upload/v1717764103/ongoing1_pxwsvg.jpg" alt="Sharavathi Project"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Vasudha enclave</h5>
+                            <p class="card-text"> </p>
+                            <a href="vasudha enclave.html" class="btn btn-primary">See more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="sulphur-emission.html"><img class="card-img-top" src="https://via.placeholder.com/350x150" alt="Sulphur Emission"></a>
+                        <div class="card-body">
+                            <h5 class="card-title"> project 2</h5>
+                            <p class="card-text"> </p>
+                            <a href="sulphur-emission.html" class="btn btn-primary">See more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="meil-ranking.html"><img class="card-img-top" src="https://via.placeholder.com/350x150" alt="MEIL Ranking"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text"> </p>
+                            <a href="meil-ranking.html" class="btn btn-primary">See more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Commitment Section -->
+    <section class="commitment-section text-center my-5">
+        <div class="container">
+            <h2>Our Commitment</h2>
+            <p>
+                We adhere to the highest standards of construction, utilizing top-quality materials and employing skilled professionals. Our rigorous quality control processes ensure that every project is built to last. The safety of our workers and the communities we serve is paramount. We implement stringent safety protocols and continually train our team to uphold these standards, ensuring a secure environment for all.
+            </p>
+            <p>
+                We believe in building lasting relationships with our clients, maintaining open communication from initial consultation to project completion to ensure customer satisfaction. Staying ahead of industry trends and technological advancements, we incorporate the latest innovations into our construction practices. This enables us to deliver cutting-edge solutions that enhance efficiency and sustainability, reinforcing our commitment to excellence in every project we undertake.
+            </p>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="https://cdn-icons-png.flaticon.com/256/5672/5672712.png" alt="Safety" class="img-fluid mb-2">
+                    <h5>Safety</h5>
+                </div>
+                <div class="col-md-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGa23S503lTj7UT_sWfO-OtRt-uVdDBOcrc-zvcHgbaA0l4iusKtR7ACGXaBagyMzMYPk&usqp=CAU" alt="Quality" class="img-fluid mb-2">
+                    <h5>Quality</h5>
+                </div>
+                <div class="col-md-3">
+                    <img src="https://i.pinimg.com/474x/8a/6f/22/8a6f223ba1447ad0018970e568b57468.jpg" alt="Accountability" class="img-fluid mb-2">
+                    <h5>Accountability</h5>
+                </div>
+                <div class="col-md-3">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/015/309/566/small_2x/illustration-of-shake-hands-on-transparent-background-free-png.png" alt="Commitment" class="img-fluid mb-2">
+                    <h5>Commitment</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact-us-section">
+        <div class="contact-content text-center">
+            <div class="contact-text">
+                <div class="contact-icon">
+                    <img src="https://i.pinimg.com/originals/e7/13/89/e713898b573d71485de160a7c29b755d.png" alt="Icon">
+                </div>
+                <h2>CONTACT US</h2>
+                <p>Speak to us today and get accurate details on your project quickly and easily</p>
+                <a href="contact us.html " class="contact-link">Click here</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section  text-white text-center py-3 ">
+        <div class="container"><footer>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="first.html "><h2><strong>Company</strong></h2></a></li>
+                    <li><a href="about us.html ">About Us</a></li>
+                    <li><a href="first.html#featured-projects-section">Projects</a></li>
+                    <li><a href="contact us.html ">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-links ">
+                <ul>
+                    <li><a href="#"><h2><strong>Support</strong></h2></a></li>
+                    <li><a href="contact us.html ">Get help</a></li>
+                    <li><a href="#">FAQS</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Operations</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#"><h2><strong>Office</strong></h2></a></li>
+                    <li><a href="#">Rajahmundry</a></li>
+                </ul>
+            </div>
+            
+        </footer>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style="width: 30px; margin: 0 10px;"></a>
+                <a href=" https://wa.me/919885879900" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="Twitter" style="width: 30px; margin: 0 10px;"></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" style="width: 30px; margin: 0 10px;"></a>
+                <a href="https://www.instagram.com/srinivasyejju/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" style="width: 30px; margin: 0 10px;"></a>
+            </div>
+            <p>&copy; 2024 Pranav Infra. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="first.js"></script>
+</body>
+</html>

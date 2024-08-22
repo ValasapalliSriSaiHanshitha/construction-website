@@ -1,0 +1,318 @@
+/* styles.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+/* General styling */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://storage-asset.msi.com/template/images/contact_us/kv-contact-us-xs.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Fixed background */
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8); /* Example semi-transparent background */
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+.heading-tertiary u-margin-bottom-small{
+    text-decoration: solid;
+    font-weight: 700;
+    
+}
+.navbar-nav .nav-item .nav-link {
+    color: #fff; /* Navbar link color */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #d18e4b; /* Navbar link hover color */
+}
+
+/* Contact Us section */
+.contact-us {
+    padding: 12rem 8rem;
+    background-color: transparent; /* Transparent background */
+    text-align: center; /* Center content horizontally */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+}
+
+.contact-us__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+.contact-us__left,
+.contact-us__right {
+    flex: 1;
+    text-align: left; /* Align text to left in each section */
+}
+
+.contact-us__img {
+    width: 100%;
+    max-width: 100%; /* Ensure image doesn't overflow its container */
+}
+
+.contact-us__form {
+    background-color: rgba(255, 255, 255, 0.8); /* Example semi-transparent form background */
+    padding: 4rem;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.form__col {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 100%;
+}
+
+.form__group {
+    width: 100%;
+}
+
+.form__label {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #000;
+    font-family: inherit;
+    margin-bottom: 1rem;
+}
+
+.form__input,
+.form__textarea {
+    display: block;
+    width: 100%;
+    padding: 1.5rem 2rem;
+    border: 2px solid #e5e5e5;
+    border-radius: 8px;
+    font-size: inherit;
+    font-weight: 300;
+    font-family: inherit;
+    transition: all 0.4s;
+    background-color: rgba(255, 255, 255, 0.5); /* Example semi-transparent background */
+}
+
+.form__input:focus,
+.form__textarea:focus {
+    outline-color: #007a69;
+}
+
+.form__input:invalid,
+.form__textarea:invalid {
+    outline-color: red;
+}
+
+.form__textarea {
+    height: 24rem;
+    resize: vertical;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 75em) {
+    .contact-us {
+        padding: 8rem 4rem;
+    }
+    .contact-us__container {
+        flex-wrap: wrap;
+        gap: 4rem;
+    }
+}
+
+@media only screen and (max-width: 56.25em) {
+    .contact-us {
+        padding: 4rem 2rem;
+    }
+    .contact-us__container {
+        gap: 2rem;
+    }
+}
+
+/* Additional styles */
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(100vh);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    20% {
+        transform: rotate(-90deg);
+    }
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+@media (hover: hover) {
+    .heading-tertiary:hover::after {
+        transform: scaleX(1);
+        transform-origin: 0;
+        
+    }
+}
+
+.heading-secondary {
+    font-weight: 700;
+    color: #000;
+    font-size: 2.4rem;
+}
+
+.paragraph {
+    line-height: 2;
+    color: #656565;
+}
+
+.copyright {
+    font-weight: 300;
+}
+
+.u-center-text {
+    text-align: center !important;
+}
+
+.u-margin-top-big {
+    margin-top: 8rem !important;
+}
+
+.u-margin-top-mid {
+    margin-top: 4rem !important;
+}
+
+.u-margin-top-small {
+    margin-top: 2rem !important;
+}
+
+.u-margin-bottom-big {
+    margin-bottom: 8rem !important;
+}
+
+.u-margin-bottom-mid {
+    margin-bottom: 4rem !important;
+}
+
+.u-margin-bottom-small {
+    margin-bottom: 2rem !important;
+}
+
+.btn {
+    font-weight: 300;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    transition: all 0.4s;
+}
+
+.btn:link,
+.btn:visited {
+    font-weight: 300;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    transition: all 0.4s;
+}
+
+@media (hover: hover) {
+    .btn:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 1rem 6rem rgba(0, 0, 0, 0.2);
+    }
+}
+
+.btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn--green {
+    color: #fff;
+    background-color: #007a69;
+    border: 1px solid #007a69;
+}
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the footer */
+footer {
+    text-align: center;
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    flex: 1 0 30%; /* Each column takes up to 30% width */
+    margin-right: 20px; /* Space between columns */
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #fff; /* Link text color */
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    opacity: 1;
+}
+
+.copyright {
+    flex: 1 0 100%; 
+    margin-top: 20px;
+    text-align: center;
+}
+
+.copyright p {
+    font-size: 18px;
+    opacity: 0.8;
+}

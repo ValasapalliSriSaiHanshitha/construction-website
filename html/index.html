@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRANAV Infra Builders and Developers</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .logo {
+            max-height: 50px;
+        } 
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .social-icons a img {
+            width: 50px; /* Increased size */
+            height: 50px; /* Increased size */
+        }
+        .carousel-item img {
+            width: 100%;
+            height: 500px; /* Set a fixed height to match the first image's height */
+            object-fit: cover; /* Ensure images cover the container without distortion */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="https://res.cloudinary.com/dkxgshfol/image/upload/v1717401909/pranav_infra_pic_dlxtkf.jpg" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
+                            <li><a class="dropdown-item" href="completed.html">Completed Projects</a></li>
+                            <li><a class="dropdown-item" href="ongoing.html ">Ongoing Projects</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="home">
+        <div class="home-left">
+            <h1 class="h1"><span class="highlight">PRANAV Infra</span></h1>
+            <h2>Builders and Developers</h2>
+            <p class="p">Building Excellence, One Project at a Time</p>
+            <p class="p">Welcome to PRANAV Infra Builders and Developers, where innovation meets craftsmanship. We are a leading construction firm committed to delivering high-quality, sustainable, and efficient construction solutions. Our dedication to excellence, safety, and client satisfaction sets us apart in the competitive landscape of the construction industry.</p>
+            <h2 class="h2">Who We Are</h2>
+            <p class="p">At PRANAV Infra Builders and Developers, we pride ourselves on our robust portfolio and a rich history of successfully completed projects. Our team comprises seasoned professionals, skilled laborers, and innovative thinkers, all driven by a shared passion for building. We bring a wealth of experience to every project, ensuring that each one meets the highest standards of quality and precision.</p>
+            <ul>
+                <li><strong>Founder:</strong> PRANAV Infra Builders and Developers was founded by <strong>Srinivasa Kiran Yejju</strong>, whose vision and leadership have been instrumental in establishing the company as a trusted name in the industry. His commitment to quality and innovation drives the firm forward.</li>
+            </ul>
+        </div>
+        <div class="home-right">
+            <div class="carousel-container">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="https://res.cloudinary.com/dkxgshfol/image/upload/v1717402581/DAD_office_dovjk8.jpg" class="d-block w-100" alt="Office Image">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Mr. SRINIVASA KIRAN YEJJU</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://res.cloudinary.com/dkxgshfol/image/upload/v1717401909/pranav_infra_pic_dlxtkf.jpg" class="d-block w-100" alt="New Project 3 Image">
+                            <div class="carousel-caption d-none d-md-block"></div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services" class="services">
+        <h2 class="h2">Our Services</h2>
+        <ul>
+            <li><strong>Residential Construction:</strong> From luxury homes to affordable housing, we create living spaces that are both beautiful and functional.</li>
+            <li><strong>Commercial Construction:</strong> We construct state-of-the-art commercial buildings, including offices, retail spaces, and industrial facilities.</li>
+            <li><strong>Renovations and Remodeling:</strong> Our renovation services enhance existing structures, adding value and modern amenities.</li>
+            <li><strong>Project Management:</strong> We provide end-to-end project management services, ensuring projects are completed on time and within budget.</li>
+            <li><strong>Sustainable Building:</strong> We prioritize eco-friendly practices and materials, striving to minimize our environmental footprint.</li>
+        </ul>
+    </div>
+
+    <div class="commitment">
+        <h2 class="h2">Our Commitment</h2>
+        <ul>
+            <li><strong>Quality:</strong> We adhere to the highest standards of construction, using top-quality materials and employing skilled professionals. Our rigorous quality control processes ensure that every project is built to last.</li>
+            <li><strong>Safety:</strong> The safety of our workers and the communities we serve is paramount. We implement stringent safety protocols and continually train our team to uphold these standards.</li>
+            <li><strong>Customer Satisfaction:</strong> We believe in building lasting relationships with our clients. From initial consultation to project completion, we maintain open communication.</li>
+            <li><strong>Innovation:</strong> Staying ahead of industry trends and technological advancements, we incorporate the latest innovations into our construction practices. This enables us to deliver cutting-edge solutions that enhance efficiency and sustainability.</li>
+        </ul>
+    </div>
+
+    <div class="projects">
+        <h2 class="h2">Our Projects</h2>
+        <p class="p">We have successfully completed a wide array of residential and commercial projects, each showcasing our commitment to excellence and client satisfaction. Highlights include:</p>
+        <ul>
+            <li><strong>PRANAV ENCLAVE:</strong> A luxurious residential complex offering modern amenities and serene living spaces.</li>
+            <li><strong>VASUDHA ENCLAVE:</strong> An ongoing project designed to provide affordable yet elegant housing solutions.</li>
+            <li><strong>VAIBHAV RESIDENCY:</strong> Vaibhav Residency offers contemporary living spaces with meticulously designed interiors and state-of-the-art facilities, providing residents with a perfect blend of comfort and style.</li>
+            <li><strong>NEERU'S EMPORIO:</strong> Neeru's Emporio is a commercial marvel that redefines shopping and business spaces, offering a unique blend of modern architecture and functional design for an unparalleled experience.</li>
+            <li><strong>PAVANI HOMES:</strong> Pavani Homes is the epitome of architectural design, blending functionality with aesthetics to create an ideal living environment. With spacious layouts and premium finishes, it sets a new standard for upscale living.</li>
+            <li><strong>SRINIVASAM GRAND:</strong> Srinivasam Grand epitomizes luxury living in the vibrant city Rajahmundry. With its contemporary design, premium amenities, and panoramic views, this exclusive apartment complex offers a lifestyle of sophistication and comfort.</li>
+            <li><strong>YNR Complex:</strong> YNR Complex is more than just a commercial hub; it's a community center designed to meet the diverse needs of modern life. From banking services to event spaces and healthcare facilities, it's a one-stop destination for convenience and comfort.</li>
+        </ul>
+    </div>
+
+    <div class="why-us">
+        <h2 class="h2">Why Choose Us?</h2>
+        <p class="p">Choosing PRANAV Infra means choosing a partner dedicated to realizing your vision with precision and care. Our proven track record, attention to detail, and commitment to client satisfaction make us the preferred choice for your construction needs.</p>
+    </div>
+
+    <div id="contact" class="contact">
+        <h2 class="h2">Contact Us</h2>
+        <p class="p">Ready to start your next project? Contact us today to learn more about how we can help you achieve your construction goals.</p>
+        <ul>
+            <li><strong>Phone:</strong> +91 9885879900</li>
+            <li><strong>Email:</strong> srinivaskiranyejju@yahoo.co.in</li>
+            <li><strong>Address:</strong> 8-145, Main Road, Mallayapeta, Kateru, Rajahmundry, AP 533103</li>
+            <li><strong>Website:</strong> [Your Website URL]</li>
+        </ul>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/srinivasyejju/" target="_blank">
+                <img src="https://imgs.search.brave.com/FmUZXvAg5PpCriub4NHVAjY6hRUWXwVRkivCyUpMac0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1LzMyLzIwLzAz/LzM2MF9GXzUzMjIw/MDM4Ml9LTDZDRGFa/Y3VzaVpPOW5PNVRE/N2hXUUV6OEtvNkJa/Qi5qcGc" class="instagram" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com/yejju/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/600px-Facebook_logo_%28square%29.png" class="facebook" alt="Facebook">
+            </a>
+            <a href="https://wa.me/919885879900" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" class="whatsapp" alt="WhatsApp">
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2024 PRANAV Infra Builders and Developers. All rights reserved.
+    </div>
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

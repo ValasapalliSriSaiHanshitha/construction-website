@@ -1,0 +1,97 @@
+/* styles.css */
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1.1rem;
+}
+
+.navbar-brand .logo {
+    height: 40px;
+}
+
+.carousel-item img {
+    width: 50%;
+    height: 750px;
+    
+}
+.carousel-caption {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.carousel-caption h5 {
+    font-size: 5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.carousel-caption p {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+
+.who-we-are {
+    padding: 50px 15px;
+    background-color: #f8f9fa;
+}
+
+.who-we-are h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.who-we-are p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+footer {
+    background-color: #3f3f40; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    flex: 1 0 30%; /* Each column takes up to 30% width */
+    margin-right: 20px; /* Space between columns */
+}
+
+.footer-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #fff; /* Link text color */
+    text-decoration: none;
+    font-size: 14px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    opacity: 1;
+}
+
+.copyright {
+    flex: 1 0 100%; /* Full width for copyright */
+    margin-top: 20px;
+    text-align: center;
+}
+
+.copyright p {
+    font-size: 18px;
+    opacity: 0.8;
+}

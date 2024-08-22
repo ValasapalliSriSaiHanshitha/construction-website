@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar .navbar-brand img {
+    height: 50px;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #343a40;
+    border: none;
+}
+
+.navbar-nav .dropdown-item {
+    color: #ffffff;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #495057;
+}
+
+.navbar-toggler {
+    border: none;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 900px;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #c67a17;
+}
+
+#h1{
+    text-align: center;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.project {
+    background: #fff;
+    flex: 1 1 calc(33.333% - 1rem);
+    margin: 1rem 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.image-box {
+    border: 2px solid #333;
+    padding: 5px;
+    margin: 1rem;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project h2 {
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+.project h2 a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.project h2 a:hover {
+    color: #555;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+    .project {
+        flex: 1 1 100%;
+    }
+}

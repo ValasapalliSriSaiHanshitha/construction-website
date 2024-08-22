@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar .navbar-brand img {
+    height: 50px;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #343a40;
+    border: none;
+}
+
+.navbar-nav .dropdown-item {
+    color: #ffffff;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #495057;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.home-left, .home-right {
+    flex: 1;
+    padding: 20px;
+    min-width: 300px;
+}
+
+.home-left {
+    border-right: 1px solid #dee2e6;
+}
+
+.h1 {
+    font-size: 2.5rem;
+    color: #343a40;
+}
+
+.h2 {
+    font-size: 2rem;
+    color: #495057;
+}
+
+.p {
+    font-size: 1.1rem;
+    color: #6c757d;
+    line-height: 1.6;
+}
+
+.highlight {
+    color: #007bff;
+}
+
+.carousel-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.carousel-caption h5 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.5em;
+    border-radius: 5px;
+}
+
+.carousel-caption p {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0.2em 0.5em;
+    border-radius: 5px;
+}
+
+.services, .commitment, .projects, .why-us, .contact {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+}
+
+li strong {
+    color: #007bff;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
